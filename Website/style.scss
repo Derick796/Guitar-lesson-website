@@ -1,0 +1,289 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: titlefont;
+  src: url(./fonts/FreckleFace-Regular.ttf);
+}
+
+#menubar {
+  position: absolute;
+  width: 100%;
+  top: 1.5em;
+  z-index: 3;
+}
+
+.links {
+  font-family: Roboto;
+}
+
+#frontpg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(./images/frontpage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#frontpg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background-color: black;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 75em;
+}
+
+.bodycontainer {
+  font-family: Roboto;
+  text-align: center;
+  position: relative;
+}
+.white {
+  color: white;
+}
+
+.bg-white {
+  background: white;
+}
+
+$primary: #cc5b24;
+.heading {
+  font-family: titlefont;
+  font-size: 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  color: white;
+  background: $primary;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.slidebutton {
+  display: block;
+  width: fit-content;
+  color: white;
+  background: $primary;
+  padding: 0.5em 1em;
+  margin: auto;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.bodyh1 {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin: auto;
+}
+
+.bodyh3 {
+  color: white;
+  font-size: 2em;
+  margin: 20px 20px;
+}
+
+.spandiv {
+  font-size: 1.4em;
+  max-width: 27em;
+  margin: auto;
+}
+
+#buttondiv {
+  margin: 20px 20px;
+}
+
+#sectionb {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  padding: 0 3em;
+}
+
+.secbh1 {
+  font-size: 3em;
+}
+
+.spandiv2 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  opacity: 0.6;
+}
+
+.slidebutton2 {
+  color: white;
+  background: $primary;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.imgdiv {
+  padding-left: 10em;
+  margin-left: 5em;
+}
+
+.bodyh2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: Roboto;
+  margin-bottom: 1.5em;
+}
+
+.iconflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 60em;
+}
+
+.icondiv {
+  padding: auto;
+  text-align: center;
+}
+.iconh4 {
+  margin: 1em 0;
+  font-family: Roboto;
+  font-size: 1.5em;
+}
+
+.icondescrib {
+  max-width: 18em;
+  opacity: 0.6;
+  font-family: Roboto;
+  margin-bottom: 2em;
+}
+
+#sectionC {
+  padding-top: 8em;
+}
+
+.teacherh2 {
+  font-family: Roboto;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.teacherdiv {
+  font-family: Roboto;
+  font-size: 1.4em;
+  opacity: 0.6;
+  margin: auto;
+  max-width: 35em;
+  text-align: center;
+}
+
+.teachflex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5em;
+  justify-content: center;
+}
+.teacher {
+  margin: 3em 1em;
+}
+.teachimg {
+  height: 13em;
+  width: 23em;
+  border-radius: 1em;
+}
+.teachh4 {
+  font-family: Roboto;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.teachh2 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 3em;
+  margin-top: 0.5em;
+  margin-bottom: 4em;
+}
+
+.courses {
+  text-align: center;
+  margin: 2.5em 0;
+}
+
+.slidebutton3 {
+  display: inline-block;
+  width: fit-content;
+  color: white;
+  background: $primary;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.clearbutton {
+  display: inline-block;
+  width: fit-content;
+  color: black;
+  border-style: groove;
+
+  padding: 0.35em 1em;
+  margin: 0 1em;
+  border-radius: 1em;
+  font-size: 1.2em;
+}
+
+.guitflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.guitdiv {
+  margin: 2em;
+}
+.guith4 {
+  font-family: Roboto;
+  font-size: 1.3em;
+  margin: 0.5em 0;
+}
+
+.guitdescrib {
+  font-family: Roboto;
+  font-size: 1em;
+  max-width: 22em;
+  opacity: 0.6;
+}
