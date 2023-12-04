@@ -1,7 +1,7 @@
 # Guitar-lesson-website
 
 This was my first crack at frontend web development
-This project introduced to the basics of Html and CSS particularly the concept of flexboxes.
+This project introduced me to the basics of Html and CSS particularly the concept of flexboxes.
 Fun fact i started this website during a 12 hour overnight lay over in toronto!
 
 
